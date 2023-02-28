@@ -1,0 +1,152 @@
+{
+  "eventId": "Jl8AnvaOSuyCEAvr161MPw",
+  "eventTime": "2022-05-25T05:39:17.000Z",
+  "eventType": "com.okta.oauth2.tokens.transform",
+  "eventTypeVersion": "1.0",
+  "contentType": "application/json",
+  "cloudEventVersion": "0.1",
+  "source": "https://dev-24236525.okta.com/oauth2/aus55rk4344aCuTkM5d7/v1/authorize",
+  "data": {
+    "context": {
+      "request": {
+        "id": "Yo3BBCBQoS_nXXEIpmhLxwAABmY",
+        "method": "GET",
+        "url": {
+          "value": "https://dev-24236525.okta.com/oauth2/aus55rk4344aCuTkM5d7/v1/authorize?scope=openid+profile+email&response_type=code&code_challenge_method=S256&redirect_uri=https%3A%2F%2Flocalhost%3A4200%2Flogin%2Fcallback&state=lwwhXXqNBHljwj5cLPn1qTb5VD7dhDTidy2sgz2duSRk2wekD7985pegexgSF5pG&nonce=6coxU3F8WzbUU7TAkH7U3y5CPGtJjP1s8AtxpekNkd9sxUtZjzXBPiL4aTWPkcyH&client_id=0oa4q85ua01q8rZ6X5d7&code_challenge=NQoBuql1jyXmX-S8VPOwP8NTqOJpe0-DsvjB4aeDB54"
+        },
+        "ipAddress": "136.226.50.207"
+      },
+      "protocol": {
+        "type": "OAUTH2.0",
+        "request": {
+          "scope": "openid profile email",
+          "state": "lwwhXXqNBHljwj5cLPn1qTb5VD7dhDTidy2sgz2duSRk2wekD7985pegexgSF5pG",
+          "redirect_uri": "https://localhost:4200/login/callback",
+          "response_mode": "query",
+          "response_type": "code",
+          "client_id": "0oa4q85ua01q8rZ6X5d7"
+        },
+        "issuer": {
+          "uri": "https://dev-24236525.okta.com/oauth2/aus55rk4344aCuTkM5d7"
+        },
+        "client": {
+          "id": "0oa4q85ua01q8rZ6X5d7",
+          "name": "AnandSPA",
+          "type": "PUBLIC"
+        }
+      },
+      "session": {
+        "id": "102nxf9FN0gRU6BfeQbcdsamw",
+        "userId": "00u4fvwt06b8iCvGx5d7",
+        "login": "anand.lingaraj@gainwelltechnologies.com",
+        "createdAt": "2022-05-25T05:39:16.000Z",
+        "expiresAt": "2022-05-25T07:39:16.000Z",
+        "status": "ACTIVE",
+        "amr": [
+          "PASSWORD"
+        ],
+        "idp": {
+          "id": "0oa4tj2fe5uQ6jlxU5d7",
+          "type": "SOCIAL"
+        },
+        "mfaActive": false
+      },
+      "user": {
+        "id": "00u4fvwt06b8iCvGx5d7",
+        "passwordChanged": "2022-03-30T18:37:55.000Z",
+        "profile": {
+          "login": "anand.lingaraj@gainwelltechnologies.com",
+          "firstName": "Anand",
+          "lastName": "Lingaraj",
+          "locale": "en",
+          "timeZone": "America/Los_Angeles"
+        },
+        "_links": {
+          "groups": {
+            "href": "https://dev-24236525.okta.com/api/v1/users/00u4fvwt06b8iCvGx5d7/groups"
+          },
+          "factors": {
+            "href": "https://dev-24236525.okta.com/api/v1/users/00u4fvwt06b8iCvGx5d7/factors"
+          }
+        }
+      },
+      "policy": {
+        "id": "00p55z8drwOEYIV0D5d7",
+        "rule": {
+          "id": "0pr55zckd4ZBUm4EL5d7"
+        }
+      }
+    },
+    "identity": {
+      "claims": {
+        "sub": "00u4fvwt06b8iCvGx5d7",
+        "name": "Lingaraj, Anand",
+        "email": "anand.lingaraj@gainwelltechnologies.com",
+        "ver": 1,
+        "iss": "https://dev-24236525.okta.com/oauth2/aus55rk4344aCuTkM5d7",
+        "aud": "0oa4q85ua01q8rZ6X5d7",
+        "jti": "ID.bNgp9yUPPM6xvrd3O5lZXf6njHZJUloF7dmQ7hSCqd8",
+        "amr": [
+          "pwd"
+        ],
+        "idp": "0oa4tj2fe5uQ6jlxU5d7",
+        "nonce": "6coxU3F8WzbUU7TAkH7U3y5CPGtJjP1s8AtxpekNkd9sxUtZjzXBPiL4aTWPkcyH",
+        "preferred_username": "anand.lingaraj@gainwelltechnologies.com",
+        "auth_time": 1653457156
+      },
+      "token": {
+        "lifetime": {
+          "expiration": 3600
+        }
+      }
+    },
+    "access": {
+      "claims": {
+        "ver": 1,
+        "jti": "AT.nVluRzWUN0675VcyF79E-jc0kCNNJoUgYNK0QtOEClM",
+        "iss": "https://dev-24236525.okta.com/oauth2/aus55rk4344aCuTkM5d7",
+        "aud": "api://hook",
+        "cid": "0oa4q85ua01q8rZ6X5d7",
+        "uid": "00u4fvwt06b8iCvGx5d7",
+        "auth_time": 1653457156,
+        "sub": "anand.lingaraj@gainwelltechnologies.com",
+        "azgroups": [
+          "a8f05937-b07b-4d09-a71a-a7c7c543f5a8",
+          "6a65cedd-15a1-44ff-a2e0-6f6b80316cda",
+          "58906ff0-6415-4a4a-948b-0d6d5faeca57",
+          "5e3d9f35-75a8-412d-b0fd-044f78136e57",
+          "488c16af-7a9b-4072-9ff7-ef61de04aae2",
+          "24f28696-ca25-42a2-8461-1b6f574ea7fa",
+          "475ad34d-59fe-4ee7-8280-78e6bebab353",
+          "b5ef3e65-656d-4e36-91b3-2701d4c71c42",
+          "e7ff3d9c-f629-45ea-bae8-3b2c6248cde6",
+          "f3f9b189-6029-4850-9658-0b42dd1c0f6c",
+          "a8e1129b-7183-44c5-8baa-04255ddd7aa9",
+          "b6377d96-ae0c-4015-a7ed-73c5fbff4754",
+          "8f4c0afc-0d01-4415-8b26-ec171ca30c81",
+          "813439f6-338b-4029-9b29-d4e13718fc31",
+          "b3dd699b-91a4-455a-a334-64f610d489d0"
+        ]
+      },
+      "token": {
+        "lifetime": {
+          "expiration": 3600
+        }
+      },
+      "scopes": {
+        "openid": {
+          "id": "scp55rk436dfqIFSM5d7",
+          "action": "GRANT"
+        },
+        "profile": {
+          "id": "scp55rk4371EswRhV5d7",
+          "action": "GRANT"
+        },
+        "email": {
+          "id": "scp55rk438Kif1fqR5d7",
+          "action": "GRANT"
+        }
+      }
+    }
+  }
+}

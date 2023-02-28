@@ -1,0 +1,4 @@
+flask
+requests==2.28.2
+appinsights
+opencensus-ext-azure
